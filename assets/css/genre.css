@@ -1,0 +1,98 @@
+@media (max-width: 767px) {
+    .carousel-inner .carousel-item > div {
+        display: none;
+    }
+    .carousel-inner .carousel-item > div:first-child {
+        display: block;
+    }
+}
+
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev {
+    display: flex;
+}
+
+/* medium and up screens */
+@media (min-width: 768px) {
+    
+    .carousel-inner .carousel-item-end.active,
+    .carousel-inner .carousel-item-next {
+      transform: translateX(25%);
+    }
+    
+    .carousel-inner .carousel-item-start.active, 
+    .carousel-inner .carousel-item-prev {
+      transform: translateX(-25%);
+    }
+}
+
+.carousel-inner .carousel-item-end,
+.carousel-inner .carousel-item-start { 
+  transform: translateX(0);
+}
+
+.m75 {
+    max-width: 75%;
+    padding-top: 3%;
+}
+
+@media (min-width: 576px){
+.genretext {
+     width: 50%;
+}}
+@media (min-width: 768px){
+.genretext {
+     width: 35%; 
+}}
+@media (min-width: 992px){
+.genretext {
+     width: 28%;
+}}
+
+@media (min-width: 1200px){
+.genretext {
+     width: 23%;
+}}
+
+@media (min-width: 1400px) {
+    .genretext {
+        width: 20%;
+    }
+}
+@media (min-width: 1920px) {
+    .genretext {
+        width: 14%;
+    }
+}
+
+.genre{
+    color: inherit; /* Use the color inherited from the parent */
+    text-decoration: none; /* Remove underline */
+    align-items: center;
+    background: #FFFFFF;
+    border: 0 solid #E2E8F0;
+    box-sizing: border-box;
+    color: #1A202C;
+    display: inline-flex;
+    font-family: Inter, sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+    height: 56px;
+    justify-content: center;
+    line-height: 24px;
+    overflow-wrap: break-word;
+    padding: 24px;
+    text-decoration: none;
+    width: auto;
+    border-radius: 8px;
+    cursor: pointer;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+body {
+    background-color: rgba(0, 0, 0, 0);
+}
+

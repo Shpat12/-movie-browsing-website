@@ -1,0 +1,18 @@
+.table {
+    width: 100%;
+    background-color: var(--bs-body-bg);;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-collapse: separate;
+    border-spacing: 0;
+    border-radius: 10px; /* Adjust the radius value as needed */
+    overflow: hidden; /* Ensures that rounded corners are applied */
+}
+
+.width70{
+    width: 70%;
+    border-spacing: 0;
+    border-radius: 20px; /* Adjust the radius value as needed */
+    overflow: hidden; /* Ensures that rounded corners are applied */
+}
+
+
